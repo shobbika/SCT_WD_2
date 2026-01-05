@@ -4,11 +4,11 @@ A fully functional web-based calculator built to practice DOM manipulation, even
 
 **🚀 HIGHLIGHTS**
 
- -Clean and responsive calculator UI.
- -Real-time DOM manipulation for display updates.
- -Button click and keyboard input support.
- -Error handling for invalid expressions and division by zero.
- -Single-page application with no external libraries.
+ - Clean and responsive calculator UI.
+ - Real-time DOM manipulation for display updates.
+ - Button click and keyboard input support.
+ - Error handling for invalid expressions and division by zero.
+ - Single-page application with no external libraries.
 
 **🖼️ SCREENS (SAMPLE)**
 
@@ -20,40 +20,42 @@ A fully functional web-based calculator built to practice DOM manipulation, even
 
 **⚙️ FEATURES**
 
- -Basic Arithmetic Operations — Addition, subtraction, multiplication, and division.
- -DOM Manipulation — Dynamically updates the calculator display.
- -Event Handling — Button click events and keyboard events.
- -Keyboard Input Support — Numbers, operators, Enter, Backspace, and Escape keys.
- -Error Handling — Gracefully handles invalid expressions and infinity values.
+ - Basic Arithmetic Operations — Addition, subtraction, multiplication, and division.
+ - DOM Manipulation — Dynamically updates the calculator display.
+ - Event Handling — Button click events and keyboard events.
+ - Keyboard Input Support — Numbers, operators, Enter, Backspace, and Escape keys.
+ - Error Handling — Gracefully handles invalid expressions and infinity values.
 
 **🧰 TECH STACK**
 
-Component    Technology
-💬 Language  JavaScript 
-🌐 Markup   HTML
-🎨 Styling  CSS3
-🧠 Logic    DOM Manipulation & Event Handling
-🚀 Deploy   GitHub Pages
+| Component | Technology |
+|----------|------------|
+| 💬 Language | JavaScript (ES6) |
+| 🌐 Markup | HTML5 |
+| 🎨 Styling | CSS3 |
+| 🧠 Logic | DOM Manipulation & Event Handling |
+| 🚀 Deployment | GitHub Pages |
+
 
 **🏁 GETTING STARTED**
 
 1. PREREQUISITES
 
- -Any modern web browser (Chrome, Edge, Firefox)
- -Git
- -VS Code (recommended)
+ - Any modern web browser (Chrome, Edge, Firefox)
+ - Git
+ - VS Code (recommended)
 
 2. SETUP
 
- -Clone the repository:
+ - Clone the repository:
 
 git clone https://github.com/shobbika/SCT_WD_2.git
 cd calculator-web-app
 
- -Open in VS Code:
+ - Open in VS Code:
 File → Open Folder → calculator-web-app
 
- -▶️ RUN THE APP
+ - ▶️ RUN THE APP
 
 Open index.html directly in a browser
  OR
@@ -64,29 +66,29 @@ https: https://www.linkedin.com/posts/shobbika-t-989383332_taskabr2-webdevelopme
 
 **🧠 KEY JAVASCRIPT FLOWS**
 
- -DOM element selection using getElementById and querySelectorAll.
- -Event listeners for button clicks and keyboard events.
- -Expression parsing and evaluation.
+ - DOM element selection using getElementById and querySelectorAll.
+ - Event listeners for button clicks and keyboard events.
+ - Expression parsing and evaluation.
 
 **🧱 PROJECT STRUCTURE**
 
 calculator-web-app
- -index.html
- -style.css
- -script.js
+ - index.html
+ - style.css
+ - script.js
 
 **🔒 SECURITY NOTES**
 
- -No external libraries or APIs used.
- -Input evaluation wrapped in error handling.
- -Designed for learning purposes (client-side only).
+ - No external libraries or APIs used.
+ - Input evaluation wrapped in error handling.
+ - Designed for learning purposes (client-side only). 
 
 **🌟 FUTURE ENHANCEMENTS**
 
- -Scientific calculator functions.
- -Theme switcher (dark/light mode).
- -Calculation history panel.
- -Mobile UI improvements.
+ - Scientific calculator functions.
+ - Theme switcher (dark/light mode).
+ - Calculation history panel.
+ - Mobile UI improvements.
 
 **🧑‍💻 CREDITS**
 

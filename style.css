@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff; /* White background */
+}
+
+.calculator {
+  background: #2d2f3a; /* Dark container like before */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  width: 320px;
+}
+
+.calculator-display {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #1b1c24;
+  color: #fff;
+  font-size: 28px;
+  text-align: right;
+}
+
+.calculator-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 60px;
+  gap: 10px;
+}
+
+/* Buttons */
+.key {
+  border: none;
+  border-radius: 8px;
+  background: #3b3e4a;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.key:hover {
+  background: #4a4e5d;
+}
+
+.key:active {
+  transform: scale(0.97);
+}
+
+/* Special keys */
+.function {
+  background: #ff8b3d;
+  color: #fff;
+}
+
+.function:hover {
+  background: #ffa35f;
+}
+
+.operator {
+  background: #4c7dff;
+}
+
+.operator:hover {
+  background: #6791ff;
+}
+
+.equal {
+  background: #22b455;
+  grid-row: span 2; /* Taller = button */
+}
+
+.equal:hover {
+  background: #33c565;
+}
+
+/* Zero spans two columns */
+.zero {
+  grid-column: span 2;
+}
